@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "daring"
+version = "0.1.0"
+description = ""
+authors = ["naoki <u429561d@ecs.osaka-u.ac.jp>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "3.9.15"
+numpy = "^2.0.0"
+cdt = "^0.6.0"
+torch = "^2.3.1"
+argparse = "^1.4.0"
+igraph = "^0.11.5"
+spicy = "^0.16.0"
+networkx = "<3.3"
+setuptools = "^70.1.1"
+ipykernel = "^6.29.4"
+rpy2 = "^3.5.16"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
